@@ -12,5 +12,7 @@ public class ListExamples {
         names.add("ramya");
         names.add("rahul");
         System.out.println(names);
+        names.set(1,"krishna");
+        System.out.println(names);
     }
 }
