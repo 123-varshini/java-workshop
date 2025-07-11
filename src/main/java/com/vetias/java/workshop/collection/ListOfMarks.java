@@ -17,7 +17,7 @@ public class ListOfMarks {
         System.out.println("marks in ascending order:"+ marks);
         Collections.sort(marks,Collections.reverseOrder());
         System.out.println("marks in decending order :"+marks);
-        System.out.println(marks.getFirst());
+        System.out.println("hightest mark"+marks.getFirst());
 
     }
 
